@@ -91,6 +91,12 @@ video.fullscreen {background-color: #000; position: fixed; top: 50%; left: 50%; 
 
 .width100{width: 100%;}
 
+.textTransformCaps{ text-transform: capitalize; }
+.textTransformUp{ text-transform: uppercase; }
+.textTransformLow{ text-transform: lowercase; }
+.textTruncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.textNotSelectable {-webkit-touch-callout: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent; }
+
 .container1280px{ width:100%; max-width: 1280px; margin: 0 auto;}
 .container1024px{ width:100%; max-width: 1024px; margin: 0 auto;}
 .container960px{ width:100%; max-width: 960px; margin: 0 auto;}
@@ -102,6 +108,18 @@ video.fullscreen {background-color: #000; position: fixed; top: 50%; left: 50%; 
 .pad10{padding: 10px; }
 .pad15{padding: 15px; }
 .pad20{padding: 20px; }
+.padtop10{padding-top: 10px !important;}
+.padbtm10{padding-bottom: 10px !important;}
+.padright10{padding-right: 10px !important;}
+.padleft10{padding-left: 10px !important;}
+
+.padtop20{padding-top: 20px !important;}
+.padbtm20{padding-bottom: 20px !important;}
+.padright20{padding-right: 20px !important;}
+.padleft20{padding-left: 20px !important;}
+
+.padright5{padding-right: 5px !important;}
+.padtop5{padding-top: 5px !important;}
 .padbtm5{padding-bottom: 5px !important;}
 .padbtm30{padding-bottom: 30px;}
 .padbtm50{padding-bottom: 50px;}
@@ -117,6 +135,7 @@ video.fullscreen {background-color: #000; position: fixed; top: 50%; left: 50%; 
 .mrgn1020{ margin: 10px 20px; }
 .mrgn2010{ margin: 20px 10px; }
 .mrgntop30{margin-top: 30px;}
+.mrgnright10{margin-right: 10px;}
 .mrgnbtm10{margin-bottom: 10px;}
 .mrgnbtm30{margin-bottom: 30px;}
 .mrgnbtm60{margin-bottom: 60px;}
